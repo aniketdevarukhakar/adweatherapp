@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="wrapper">
+        <div class="title">
+         <span>AD</span> Weather Forecast
+        </div>
+        <!-- search bar -->
+        <div id="search-bar">
+          <input type="search" name="search" class="search" value="" id="search" onkeydown="search(this)" />
+        </div>
+        <!-- banner -->
+        <div id="banner">
+          <div class="top-image">
+            <img src="" id="banner-img" />
+          </div>
+          <div class="condition-text">
+            <h1 id="daynight"></h1>
+          </div>
+        </div>
+        <!-- wether details -->
+        <div id="wether-detail">
+          <div id="city" class="orange capitalise"></div>
+          <div id="day"><span id="weekday"></span> | <span id="month-date"></span> | <span id="time"></span></div>
+          <div id="temp" class="orange capitalise"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

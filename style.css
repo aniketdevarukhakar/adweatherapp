@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.orange {
+  color: #d95720;
+}
+
+#wrapper {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0px 0px 35px 0px #956c2287;
+}
+
+.title {
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 2px solid #d95727;
+  background: #d9572021;
+}
+
+.title span {
+  font-size: 28px;
+}
+
+#search {
+  border: 0px solid #c8c7c542;
+  border-radius: 30px;
+  font-size: 12px;
+  color: #333333ab;
+  padding: 10px 25px;
+  box-shadow: 0px 0px 50px 0px #91816287;
+  background: #f0f8ff61;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#search-bar {
+  margin: 15px 0;
+}
+
+/* #banner {
+    height: 130px;
+} */
+
+.condition-text {
+  padding: 0 0 20px;
+  letter-spacing: 8px;
+}
+
+#city,
+#day,
+#temp {
+  padding: 5px 0;
+}
+
+#city {
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+#day {
+  color: #0000008a;
+  font-size: 17px;
+}
+
+#temp {
+  font-size: 34px;
+  font-weight: 800;
+  position: relative;
+}
+.unit {
+  font-size: 16px;
+  position: absolute;
+  top: -0;
+}
+
+#wether-detail {
+  padding: 20px 0;
+  background: #f0f8ffed;
+  border-top: 2px solid #e1d9ba;
+}
+
+@media screen and (max-width: 450px) {
+  #wrapper {
+    max-width: unset;
+    margin: unset;
+    overflow: unset;
+    height: 100vh;
+  }
+  .title {
+    font-size: 30px;
+    padding: 30px 0;
+    border-bottom: 3px solid #d95727;
+  }
+  .title span {
+    font-size: 50px;
+  }
+  #search-bar {
+    margin: 40px 0;
+  }
+  #search {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 15px 25px;
+    width: 80%;
+  }
+  .top-image img {
+    width: 40%;
+  }
+  #daynight {
+    font-size: 54px;
+}
+#city {
+    font-size: 32px;
+    line-height: 44px;
+}
+#day {
+    font-size: 32px;
+    line-height: 48px;
+    padding: 15px 0;
+}
+#temp {
+  font-size: 95px;
+  line-height: 49px;
+  padding: 15px 0;
+}
+.unit {
+  font-size: 24px;
+  top: -20px;
+}
+#wether-detail {
+    border-top: 5px solid #e1d9ba;
+}
+}
